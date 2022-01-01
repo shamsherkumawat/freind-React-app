@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/freind-React-app/static/css/main.0c06a1fb.css",
+    "main.js": "/freind-React-app/static/js/main.1a0965d4.js",
+    "static/media/SEGA.woff": "/freind-React-app/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/freind-React-app/index.html",
+    "main.0c06a1fb.css.map": "/freind-React-app/static/css/main.0c06a1fb.css.map",
+    "main.1a0965d4.js.map": "/freind-React-app/static/js/main.1a0965d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c06a1fb.css",
+    "static/js/main.1a0965d4.js"
+  ]
+}
