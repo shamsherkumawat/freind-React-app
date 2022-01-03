@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import CardList from "./CardList";
-import { robots } from "./mockData/friends";
-import SearchBox from "./SearchBox";
+import CardList from "../Components/CardList";
+import { robots } from "../mockData/friends";
+import SearchBox from "../Components/SearchBox";
 import "./main.css";
+import Scroll from "../Components/Scroll";
 
 const Main = () => {
   const [stateData, setStateData] = useState({
@@ -22,7 +23,9 @@ const Main = () => {
     <div className="tc">
       <h1> Friends App</h1>
       <SearchBox searchChange={onSearchChange} />
-      <CardList robots={filteredRobots()} />
+      <Scroll>
+        <CardList robots={filteredRobots()} />
+      </Scroll>
     </div>
   );
 };

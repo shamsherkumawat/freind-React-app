@@ -5,7 +5,7 @@ import "./index.css";
 // import reportWebVitals from "./reportWebVitals";
 import "tachyons";
 import { robots } from "./mockData/friends";
-import Main from "./Main";
+import Main from "./Containers/Main";
 
 ReactDOM.render(
   // <React.StrictMode>
